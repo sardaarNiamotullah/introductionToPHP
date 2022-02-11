@@ -64,11 +64,11 @@
     <section class="main">
 
         <h1 class="welcome">
-            <span class="intro">Assalamualikum</span>
+            <span class="intro">Assalamualikum,</span>
             <span class="intro">Let's play a game called Mad Libs!!!</span>
         </h1>
 
-        <form action="madLibsGame.php" method="$_GET">
+        <form action="madLibsGame.php" method="$_GET" autocomplete="off">
             <span>Please insert the name of your favourite color: </span> <br>
             <input type="text" name="color"> <br>
             <span>Please insert a pulral noun: </span> <br>

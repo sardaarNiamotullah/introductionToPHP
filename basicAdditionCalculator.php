@@ -67,11 +67,11 @@
     <section class="main">
 
         <h1 class="welcome">
-            <span class="intro">Assalamualikum</span>
+            <span class="intro">Assalamualikum,</span>
             <span class="intro">We can help you to add two numbers for free!!!</span>
         </h1>
 
-        <form action="basicAdditionCalculator.php" method="$_GET">
+        <form action="basicAdditionCalculator.php" method="$_GET" autocomplete="off">
             <span>Please insert your 1st number: </span> <br>
             <input type="number" name="firstNumber" step="any"> <br>
             <span>Please insert your 2nd number: </span> <br>
